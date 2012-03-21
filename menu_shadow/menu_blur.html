@@ -1,0 +1,87 @@
+<html>
+<head>
+     <style type="text/css">
+		* {
+		margin: 0;
+		padding: 0;
+		}
+
+      body{
+        margin:10px;
+        padding:5px;
+        /*border:1px solid #ccc;*/
+        background: none repeat scroll 0 0 #EAF5FF;
+        font-family:Tahoma, Verdana, Arial, sans-serif;
+        font-size:12px;
+        color:#333;
+      }
+		
+		
+	/* =Shadow Nav
+	-------------------------------------------------------------------------- */
+		
+		#nav-shadow {
+			margin: 0 auto 50px auto;
+			padding: 50px 0 0 0px;
+			width: 497px;
+			min-height: 130px;
+			text-align: center;
+			background: url(page-shadow.jpg) top center no-repeat;
+			list-style: none;
+			}
+			
+		#nav-shadow li {
+			margin-right: 15px;
+			height: 72px;
+			width: 65px;
+			position: relative;
+			float: left;
+			}
+			
+		#nav-shadow a, #nav-shadow a:visited, #nav-shadow a {
+			margin: 0 auto;
+			width: 59px;
+			height: 59px;
+			/*text-indent: -9999px;*/
+			overflow: hidden;
+			display: block;
+			position: relative;
+			z-index: 2;
+			}
+			
+
+		.nav-shadow-hover {
+			top: -10px;	
+		}
+		
+			
+		/* Button Shadow */
+		
+		#nav-shadow li img.shadow {
+			margin: 0 auto;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 1;
+			opacity: 0.7;
+			}			
+			
+      </style>
+
+		<link rel="stylesheet" href="scripts/jquery.ui.all.css">      
+		<script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.effects.core.min.js"></script>
+		<script type="text/javascript" src="scripts/execute.js"></script>
+      	
+</head>
+
+<body>
+	
+	<ul id="nav-shadow">
+		<li class="nav"><a class="nav-shadow-hout" href="#">Home</a></li>
+		<li class="nav"><a class="" href="#">Portfolio</a></li>
+		<li class="nav"><a class="" href="#">Blog</a></li>
+		<li class="nav"><a class="" href="#">Kontakt</a></li>
+	</ul>
+</body>	
+</html>
